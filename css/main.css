@@ -97,14 +97,14 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #33302F ;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 0.75em;
   height: 100%;
 }
 
@@ -118,15 +118,17 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: rgb(233, 121, 167);
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #33302F ;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border: 1px solid pink;
+  margin: 1px;
 }
 
 
